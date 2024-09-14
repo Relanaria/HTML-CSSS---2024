@@ -1,0 +1,43 @@
+ul{
+    list-style-type: none;
+}
+
+li{
+    font-weight: bold;
+}
+
+/* Descendant Selector */
+section p.last-p {
+    background-color: rgb(233, 127, 127);
+}
+
+/* Child Selector */
+.font-ul > li {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Adjacent Sibling Selector */
+
+article + article {
+    background-color: aquamarine;
+}
+
+/* General Sibling Selector */
+
+h2 ~ p{
+    color: blue;
+}
+
+/* Combining Relative Selectors */
+
+li.li-one a {
+    color: green;
+}
+
+li.li-two a, ul .second-li {
+    color: red;
+}
+
+li.li-thre a {
+    color: purple;
+}

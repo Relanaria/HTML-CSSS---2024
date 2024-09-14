@@ -1,0 +1,40 @@
+p.highlighted{
+    color: aqua;
+}
+
+p#special-content{
+    background-color: orange;
+}
+
+input[type="text"].input-field{
+    border: 3px solid red;
+    padding: 15px 0px;
+}
+
+.li-one,  .li-two{
+    color: aqua;
+}
+
+.li-two{
+    color: red;
+    font-style: italic;
+}
+
+.a-color {
+    color: blue;
+}
+
+.a-dunderline{
+    text-decoration: underline;
+    text-decoration-style: double;
+}
+
+.a-dcolor{
+    color: orange;
+}
+
+div ~ p {
+    color: blue;
+    font-weight: bold;
+}
+

@@ -1,0 +1,52 @@
+ul > li > a {
+    color: blue;
+}
+
+.li-one{
+    font-weight: bold;
+}
+
+li > a#li-two{
+    font-style: italic;
+}
+
+div.section-div > section{
+    background-color: blue;
+}
+
+section + header{
+    background-color: green ;
+}
+
+section.additional-information ~ article{
+    background-color: tomato;
+}
+
+img{
+    border: 5px solid red;
+}
+
+form.input-form input[type="text"]{
+    border: 3px solid blue;
+}
+
+.nav-list li:last-child{
+    color: red;
+    background-color: darkblue;
+}
+
+.notice p::before {
+    content: "⚠️";
+    font-size: 20px;
+    color: red;
+    margin-right: 8px;
+}
+
+#special-content h2::after {
+    content: "dasdsadsa";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    margin-top: 8px;
+}

@@ -1,0 +1,22 @@
+div > p{
+    color: blue;
+    font-weight: 500;
+}
+
+p ~ span{
+    font-weight: bold;
+    color: red;
+}
+
+ul > li{
+    list-style-type: square;
+}
+
+p + p{
+    background-color: yellow;
+}
+
+p > span{
+    color: red;
+    font-weight: bold;
+}
