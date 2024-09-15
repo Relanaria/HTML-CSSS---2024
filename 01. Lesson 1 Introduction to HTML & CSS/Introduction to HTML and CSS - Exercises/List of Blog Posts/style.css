@@ -1,0 +1,16 @@
+p > span{
+    font-weight: bold;
+}
+
+h1 + p {
+    color: gray;
+}
+
+.font-span{
+    font-weight:400;
+    font-style: italic;
+}
+
+p + p {
+    font-size: 20px;
+}
