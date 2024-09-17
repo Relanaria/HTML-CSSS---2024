@@ -1,0 +1,64 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8; /* Light background for the entire page */
+}
+
+header {
+    background-color: #6a1b9a; /* Vibrant purple header */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main{
+    background-color: #ffffff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+article{
+    margin-bottom: 30px;
+    padding: 45px;
+    border-bottom: 1px solid rgb(180, 178, 178);
+}
+
+footer{
+    background-color: #6a1b9a; /* Vibrant purple header */
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding: 1em 0;
+}
+
+
+article h2 {
+    color: #333333; /* Dark text for titles */
+    margin-bottom: 10px;
+}
+
+article p {
+    color: #666666; /* Lighter text for the body */
+    line-height: 1.6; /* Improved readability */
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+    color: white;
+}
+
+header nav ul li  a{
+    color: white;
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-decoration: none;
+}
