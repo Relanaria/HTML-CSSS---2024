@@ -1,0 +1,22 @@
+div {
+    border: 2px solid black;
+}
+
+p{
+    font-weight: bold;
+}
+
+.uniform-margin {
+    margin: 20px;
+    padding: 20px;
+}
+
+.non-uniform {
+    margin: 10px 30px 20px 40px;
+    padding: 10px 30px 20px 40px;
+}
+
+.percentage-margin {
+    padding: 20px;
+    margin: -20px 10px;
+}
