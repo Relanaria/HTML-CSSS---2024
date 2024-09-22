@@ -1,0 +1,47 @@
+/* Basic styles for the page */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+p{
+    width: 70%;
+}
+div{
+    padding-bottom: 20px;
+    width: 70%;
+    border: 2px dotted black;
+    text-align: left;
+    margin: 15px;
+}
+/* The outer box that visualizes the margin, border, and padding */
+.box {
+    margin: 30px; /* Margin shown in the diagram *//* Border */
+    padding: 20px; /* Padding */
+    background-color: lightgreen; /* The padding area */
+    width: 80%;
+}
+
+.border {
+    background-color: orange;
+    width: 95%;
+}
+/* The inner content area */
+.content {
+    background-color: lightblue; /* Content area */
+    padding: 20px;
+    text-align: center;
+    width: 80%;
+}
+
+
+.margin {
+    background-color: lightsalmon;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}

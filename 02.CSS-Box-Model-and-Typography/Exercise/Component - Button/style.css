@@ -1,0 +1,52 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+i {
+    margin-right: 5px;
+}
+
+div {
+    margin-left: 2em;
+}
+
+.links a {
+    text-decoration:  none;
+    color: black;
+    background-color: lightgray;
+    padding: 15px;
+    margin-right: 10px;
+    border: 1px solid rgb(235, 233, 233);
+    border-radius: 5px;
+}
+
+.links a:nth-child(3) {
+    background-color: orange; 
+}
+.links a:nth-child(4) {
+    background-color: lightgoldenrodyellow; 
+}
+.links a:nth-child(5) {
+    background-color: white; 
+}
+
+
+.buttons {
+    text-decoration:  none;
+    color: black;
+    background-color: lightgray;
+    padding: 15px;
+    margin-right: 10px;
+    border: 1px solid rgb(235, 233, 233);
+    border-radius: 5px;
+}
+
+.buttons:nth-child(3) {
+    background-color: orange; 
+}
+.buttons:nth-child(4) {
+    background-color: lightgoldenrodyellow; 
+}
+.buttons:nth-child(5) {
+    background-color: white; 
+}

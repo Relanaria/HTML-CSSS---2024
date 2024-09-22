@@ -1,0 +1,29 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+
+article {
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 0px 30px;
+    margin: 3em auto;
+    max-width: 65%;
+    text-align: left;
+}
+
+section {
+    margin-bottom: 25px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+.intro {
+   font-weight: 550;
+}
+
+.date-published {
+    font-style: italic;
+}
