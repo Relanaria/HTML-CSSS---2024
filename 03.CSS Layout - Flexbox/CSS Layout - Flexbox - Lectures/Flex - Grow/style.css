@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    width: 400px;
+    padding: 1em;
+    border: 2px solid blue;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.flex-item {
+    background: #eee;
+    padding: 20px;
+    border: 2px solid #000;
+}
+
+.flex-grow .flex-item{
+    flex-grow: 1;
+}
+
+.flex-grow-2nd div:nth-child(2){
+    flex-grow: 1;
+}
+
+.flex-grow-proportionally div:nth-child(1){
+    flex-grow: 1;
+}
+.flex-grow-proportionally div:nth-child(2){
+    flex-grow: 2;
+}
+.flex-grow-proportionally div:nth-child(3){
+    flex-grow: 3;
+}

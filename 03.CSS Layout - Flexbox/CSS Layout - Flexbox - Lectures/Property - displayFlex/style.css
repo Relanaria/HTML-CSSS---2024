@@ -1,0 +1,15 @@
+.flexbox {
+    display: flex;
+    width: 400px;
+    padding: 1em;
+    border: 2px solid blue;
+    justify-content: flex-start;
+}
+
+.flex-item {
+
+    background: #eee;
+    padding: 20px;
+    border: 2px solid #000;
+
+}
