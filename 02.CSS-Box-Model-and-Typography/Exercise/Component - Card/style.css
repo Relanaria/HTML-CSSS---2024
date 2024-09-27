@@ -1,0 +1,38 @@
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: gray;
+}
+
+a {
+    color: black;
+    font-style: italic;
+}
+
+.component {
+    box-sizing: border-box;
+    width: 45%;
+    margin: auto;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    text-align: left;
+}
+
+.component img {
+    width: 100%; 
+    height: auto; 
+    display: block; 
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.wrapper {
+    margin: 15px 35px;
+    padding-bottom: 1em;
+}
