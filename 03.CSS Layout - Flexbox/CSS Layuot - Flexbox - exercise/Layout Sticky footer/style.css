@@ -1,0 +1,18 @@
+.container {
+    border: 2px solid green;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container div {
+    border: 2px solid blue;
+    padding: 20px;
+    margin: 20px;
+}
+
+.main {
+    flex-grow: 1;
+}
