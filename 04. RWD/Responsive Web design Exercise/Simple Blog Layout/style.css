@@ -1,0 +1,48 @@
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: hsl(0deg 0% 93.33%);
+}
+
+
+.container {
+    background-color: white;
+    width: 90%;
+    margin: 40px auto;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 5px;
+    padding: 20px;
+}
+.flex-item {
+    border: 1px solid black;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-align: left;
+}
+
+
+.container-inline {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+}
+
+
+.main-content {
+    flex-grow: 2;
+}
+
+
+
+.sidebar {
+    flex-grow: 1;
+}
+
+@media screen and (max-width: 800px) {
+    .container-inline {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}
