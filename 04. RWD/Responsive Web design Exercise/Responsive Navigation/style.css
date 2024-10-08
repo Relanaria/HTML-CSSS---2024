@@ -1,0 +1,51 @@
+body{
+    font-family: "Lato", sans-serif;
+}
+
+p{
+    font-weight: bold;
+    flex-grow: 1;
+    padding: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.navigation {
+    display: flex ;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 90%;
+    margin: 20px auto;
+    padding: 1em;
+    border-radius: 5px;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    margin-top: 0px;
+
+    margin-bottom: 0px;
+}
+
+li {
+    background-color: rgb(200, 197, 197);
+    padding: 10px;
+    border-radius: 5px;
+    flex-grow: 2;
+}
+
+li + li {
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 800px) {
+    .navigation {
+        width: 70%;
+    }
+    p{
+        flex-grow: 0;
+    }
+    li{
+        flex-grow: 0;
+    }
+}
