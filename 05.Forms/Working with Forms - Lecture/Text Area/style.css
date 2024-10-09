@@ -41,3 +41,9 @@ h2{
 fieldset{
     margin-left: 2em;
 }
+
+#textarea {
+    margin-top: 2em;
+    width: 15em;
+    height: 10em;
+}
