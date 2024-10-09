@@ -1,0 +1,43 @@
+*{
+    padding:  0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body, input, textarea, select, option {
+    font-style: inherit;
+}
+
+body {
+    padding: 2em;
+}
+
+input{
+    display: inline-block;
+    padding: 0.5em 0.8em;
+    border: 2px solid gray;
+    outline: none;
+    border-radius: 5px;
+    margin-top: 1em;
+}
+
+input:focus{
+    border-color: #090;
+}
+
+p{
+    margin-top: 0px;
+}
+
+h1{
+    margin-bottom: 0px;
+}
+
+h2{
+    margin-top: 2em;
+    margin-bottom: 0px;
+}
+
+fieldset{
+    margin-left: 2em;
+}
