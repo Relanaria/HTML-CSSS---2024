@@ -1,0 +1,64 @@
+body{
+    background-color: #ccc;
+    padding: 0px;
+    margin: 0px;
+}
+
+fieldset {
+    border: 0;
+    width: 35%;
+    margin: 10em auto;
+    background-color: white;
+    padding: 2em;
+    transition: all 0.6s;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 2em;
+}
+
+input{
+    border: none;
+    border-bottom: 1px solid gray;
+    padding: 1em 0px;
+}
+
+.gray-paragraph{
+    color: gray;
+    font-style: italic;
+}
+
+.login-btn{
+    font-size: 1.225rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 1em 0px;
+    margin-top: 1em;
+}
+
+@media screen and (max-width:800px) {
+    
+    fieldset{
+        width: 45%;
+        transition: all 0.6s;
+    }
+}
+
+@media screen and (max-width:600px) {
+    
+    fieldset{
+        width: 50%;
+        transition: all 0.6s;
+    }
+}

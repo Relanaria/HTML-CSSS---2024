@@ -1,0 +1,68 @@
+body{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #ccc;
+}
+
+.container {
+    width: 80%;
+    padding: 1em;
+    background-color: white;
+    display: flex;
+    margin: 5em auto;
+    border-radius: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.form-sizing {
+    padding: 1em;
+    border: none;
+    border-radius: 5px;
+}
+
+.input-btn {
+    margin-right: 1em;
+    background-color: #ccc;
+}
+
+.sub-btn{
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 1.05em;
+}
+
+#email{
+    flex-grow: 1;
+}
+
+@media screen and (min-width:600px) and (max-width: 650px) {
+  
+
+    .container {
+        flex-wrap: wrap;
+    }
+    .sub-btn{
+        margin-top: 1em;
+        flex-grow: 2;
+    }
+    #email {
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    
+    .container{
+        flex-direction: column;
+    }
+    .input-btn {
+        margin-right: 0px;
+        background-color: #ccc;
+        margin-bottom: 2em;
+    }
+}
