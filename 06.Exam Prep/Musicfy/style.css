@@ -1,0 +1,211 @@
+html {
+    font-family: "Lato", sans-serif;
+}
+body, header {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1,h2 {
+    font-family: "Montserrat", sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    width: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+.logo{
+    width: 6.3em;
+    height: 2em;
+}
+
+.nav-bar{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar li  a{
+    font-size: 1.25rem;
+    margin-right: 2em;
+    text-decoration: none;
+    color: white;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(200, 200, 200);
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    display: flex;
+    width: 80%;
+}
+
+tbody{
+    width: 100%;
+}
+
+td,
+th {
+    padding: 10px 20px;
+}
+
+th {
+    background-color: rgb(235, 235, 235);
+}
+
+td {
+    text-align: center;
+}
+
+tr td:nth-child(1){
+   width: 100%;
+   text-align: left;
+   font-weight: bold;
+}
+
+tr:nth-child(odd) td {
+    background-color: hsl(0deg 0.97% 79.8%);
+}
+
+tr:nth-child(even) td {
+    background-color: hsl(141.38deg 52.73% 67.65%);
+}
+
+caption {
+    padding: 10px;
+}
+
+.hero-section {
+    background-color: hsl(141.15deg 72.9% 41.96%);
+}
+
+.hero-img{
+    width: 50%;
+    width: 100vh;
+    position: absolute;
+}
+
+.hero-heading h1 {
+    text-align: center;
+    color: white;
+    margin-top: 0px;
+    padding-top: 1.5em;
+}
+
+.plans-container {
+    display: flex;
+    justify-content: space-around;
+    color:gray;
+    position: relative;
+    top: 5em;
+}
+
+.plan {
+    background-color: hsl(0deg 0% 100%);
+    flex-basis: 30%;
+    box-sizing: content-box;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.plan-info {
+    padding: 1em;
+    border-right: 2px solid gray;
+    border-top: 2px solid gray;
+    border-left: 2px solid gray;
+    padding-bottom: 1.15em;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.packet-info li {
+    margin: 1em 0em;
+}
+
+.plan-info h2 {
+    text-align: center;
+}
+
+.plan-btn {
+    display: block;
+    background-color: hsl(141.15deg 72.9% 41.96%);
+    color: white;
+    border: none;
+    font-size: 1.1rem;
+    padding: 12px 2.25em;
+    border-radius: 2em;
+    margin: 1em auto;
+    cursor: pointer;
+}
+
+.price-left {   
+    display: flex;
+    background: black;
+    color: white;
+    font-size: 1.15rem;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.price-border {
+    border-right: 1px solid white;
+    margin-right: 10px;
+    padding-right: 10px;
+}
+
+.price-left p, .price-right p {
+    margin: 8px;
+    padding:  1em;
+}
+
+.price-right {   
+    display: flex;
+    background: black;
+    color: white;
+    justify-content: center;
+    font-size: 1.15rem;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+.info-section {
+    padding-top: 13em;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+
+.info-section section{
+    width: 60%;
+}
+.info-section-list{
+    padding-left: 1em;
+}
+
+.info-section-list li {
+    margin: 1em 0em;
+}
+
+.info-section img{
+    width: 30%;
+}
+
