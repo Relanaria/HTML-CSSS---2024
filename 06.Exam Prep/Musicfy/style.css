@@ -1,7 +1,9 @@
 html {
     font-family: "Lato", sans-serif;
 }
-body, header {
+
+body,
+header {
     margin: 0;
     padding: 0;
 }
@@ -10,37 +12,41 @@ ul {
     list-style-type: circle;
 }
 
-img {
+.logo-img {
     max-width: 100%;
 }
 
-h1,h2 {
+h1,
+h2 {
     font-family: "Montserrat", sans-serif;
 }
 
-header{
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 1.5em;
+}
+
+header {
     display: flex;
     justify-content: space-between;
     background-color: black;
     width: 100%;
 }
 
-img {
-    width: 100%;
-}
-
-.logo{
+.logo {
     width: 6.3em;
     height: 2em;
 }
 
-.nav-bar{
+.nav-bar {
     list-style-type: none;
     display: flex;
     justify-content: space-between;
 }
 
-.nav-bar li  a{
+.nav-bar li a {
     font-size: 1.25rem;
     margin-right: 2em;
     text-decoration: none;
@@ -54,10 +60,11 @@ table {
     font-size: 0.8rem;
     border-radius: 5px;
     display: flex;
+    margin: 0em auto;
     width: 80%;
 }
 
-tbody{
+tbody {
     width: 100%;
 }
 
@@ -74,10 +81,10 @@ td {
     text-align: center;
 }
 
-tr td:nth-child(1){
-   width: 100%;
-   text-align: left;
-   font-weight: bold;
+tr td:nth-child(1) {
+    width: 100%;
+    text-align: left;
+    font-weight: bold;
 }
 
 tr:nth-child(odd) td {
@@ -96,9 +103,9 @@ caption {
     background-color: hsl(141.15deg 72.9% 41.96%);
 }
 
-.hero-img{
-    width: 50%;
-    width: 100vh;
+.hero-img {
+    width: 45%;
+    height: 60vh;
     position: absolute;
 }
 
@@ -112,27 +119,27 @@ caption {
 .plans-container {
     display: flex;
     justify-content: space-around;
-    color:gray;
+    color: gray;
     position: relative;
     top: 5em;
 }
 
 .plan {
-    background-color: hsl(0deg 0% 100%);
     flex-basis: 30%;
     box-sizing: content-box;
     border-radius: 5px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .plan-info {
+    background-color: hsl(0deg 0% 100%);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     padding: 1em;
     border-right: 2px solid gray;
     border-top: 2px solid gray;
     border-left: 2px solid gray;
     padding-bottom: 1.15em;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 
 .packet-info li {
@@ -155,27 +162,30 @@ caption {
     cursor: pointer;
 }
 
-.price-left {   
+.price-left {
     display: flex;
     background: black;
     color: white;
+    justify-content: center;
     font-size: 1.15rem;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
 }
 
 .price-border {
     border-right: 1px solid white;
     margin-right: 10px;
-    padding-right: 10px;
 }
 
-.price-left p, .price-right p {
+.price-left p,
+.price-right p {
     margin: 8px;
-    padding:  1em;
+    padding: 1em;
 }
 
-.price-right {   
+.price-right {
     display: flex;
     background: black;
     color: white;
@@ -194,10 +204,11 @@ caption {
 }
 
 
-.info-section section{
+.info-section section {
     width: 60%;
 }
-.info-section-list{
+
+.info-section-list {
     padding-left: 1em;
 }
 
@@ -205,7 +216,23 @@ caption {
     margin: 1em 0em;
 }
 
-.info-section img{
+.info-section img {
     width: 30%;
 }
 
+
+.table {
+    width: 90%;
+    margin: 5em auto;
+    text-align: center;
+}
+
+.table-heading{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.table-p{
+    font-size: 1.15rem;
+    margin-bottom: 2em;
+}
