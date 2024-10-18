@@ -1,0 +1,30 @@
+@media screen and (width <= 600px) {
+    
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav img {
+        margin-bottom: 1em;
+    }
+
+    .our-dogs-wrapper ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .our-dogs-wrapper ul li{
+        width: 45.5%;
+    }
+
+    .our-dogs-wrapper ul li img {
+        width: 100%;
+    }
+
+    .helpNeed ul {
+        flex-direction: column;
+        justify-content: normal;
+    }
+
+}
